@@ -4,24 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Engaged Learning Resources | UMSI</title>
-
+    <link rel="stylesheet" href="css/html5reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-    <header>
-        <img src="./images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" width="150">
-        <br>
-        <a href = "#main">Skip to Main Content</a>
-        <nav>
-            <ul>
-                <li><a href = "index.html">Home</a></li>
-                <li><a href = "prep.html">Preparing Your Experience</a></li>
-                <li><a href = "starting.html">Starting Your Experience</a></li>
-                <li><a href = "ending.html">Ending Your Experience</a></li>
-            </ul>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="brand">
+          <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo">
+        </div>
+        <a class="skip-link" href="#main">Skip to Main Content</a>
+        <nav class="site-nav" aria-label="Primary">
+          <ul>
+            <li><a href="index.html" class="active" aria-current="page">Home</a></li>
+            <li><a href="prep.html">Preparing Your Experience</a></li>
+            <li><a href="starting.html">Starting Your Experience</a></li>
+            <li><a href="ending.html">Ending Your Experience</a></li>
+          </ul>
         </nav>
-    <h1>Welcome to the UMSI Engaged Learning Office</h1>
-
+        <h1>Welcome to the UMSI Engaged Learning Office</h1>
+      </div>
     </header>
     <main id="main">
     <section>
@@ -38,7 +41,7 @@
 
     <p>Real-world projects rarely follow a perfect plan. This site helps you find the right guidance when you need it, so you can spend less time earching for materials and more time learning, collaborating, and moving your project forward.
     </p>
-        <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag." width="400">
+        <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on the drag.">
     <ul>
         <li><strong>Follow a clear process:</strong>Move from preparation and project launch through active work, reflection, and responsible closeout.</li>
         <li><strong>Find practical support:</strong> Access relevant templates, checklists, examples, and how-to guidance for common project needs.</li>
@@ -50,6 +53,7 @@
  <section>
     <h2>Guidance for Every Stage</h2>
     <p>Engaged learning projects can change as new needs, constraints, and insights emerge. Find guidance for the stage of work you are navigating <strong>now.</strong></p>
+    <div class="two-column-grid">
     <article>
       <h3>Start Here</h3>
       <p>Set learning goals, understand the project context, examine your assumptions, define team roles, and establish a strong relationship with your partner.</p>
@@ -67,11 +71,13 @@
       <p>Complete a responsible handoff, evaluate your impact, reflect on your growth, and translate your work into resume, portfolio, and interview content.</p>
       <a href="ending.html">Plan your next steps</a>
     </article>
+    </div>
   </section>
 
    <section>
     <h2>Featured Programs</h2>
     <p>Explore opportunities to collaborate with organizations, communities, student teams, and partners in Michigan and beyond.</p>
+    <div class="two-column-grid">
     <article>
     <h3><a href="https://mcompass.umich.edu/_portal/tds-program-brochure?programid=12810">AI Clinic Project Experience</a></h3>
     <p>Work with a team on an applied artificial intelligence project for a partner organization.</p>
@@ -101,13 +107,14 @@
       <h3><a href="https://www.si.umich.edu/student-life/study-abroad">Study Abroad</a></h3>
       <p>Build intercultural awareness and apply your learning in an international setting. </p>
     </article>
+    </div>
    </section>
   <section>
     <h2>About the Engaged Learning Office</h2>
     <p>The Engaged Learning Office works with partners across industries and sectors, from technology companies to grassroots nonprofits and cultural heritage institutions, to provide project-based opportunities for UMSI students.</p>
     <p>Its mission is to facilitate transformational engaged learning experiences and enable innovative, sustainable, and mutually beneficial information solutions for local and global communities.</p>
   </section>
-  <aside>
+  <aside class="action-card">
     <h2>Stay Connected with ELO</h2>
     <p>Get updates about ELO programs, workshops, events, and opportunities through the weekly newsletter.</p>
     <div>
