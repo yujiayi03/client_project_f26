@@ -91,6 +91,7 @@ header.site-header {
   border-radius: 0.4rem;
   background: #fff;
   padding: 0.4rem;
+  margin-inline: auto; /* center the logo horizontally in the header */
 }
 
 header.site-header h1 {
